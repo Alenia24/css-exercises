@@ -1,0 +1,56 @@
+body {
+  background: #ddd;
+  margin: 0;
+}
+
+.header {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+  box-shadow: 0 0 8px rgba(0,0,0,.1);
+  padding: 8px;
+}
+
+.header-left , .header-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.logo {
+  color: purple;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: purple;
+}
+
+button {
+  padding: 8px 25px;
+  background: purple;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.profile {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: purple;
+  box-shadow: inset 2px 2px 4px rgba(0,0,0,.5) ;
+}
